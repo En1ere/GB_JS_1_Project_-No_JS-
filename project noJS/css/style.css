@@ -1,0 +1,37 @@
+body {
+  width: 900px;
+  height: 100vh;
+  background-color: #4b4b4b;
+  padding: 10px 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body h3 {
+  font-size: 70px;
+  color: #55ffc6;
+  letter-spacing: 5px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.line__top {
+  height: 10px;
+  background-color: #55ffc6;
+}
+
+.cubes {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cube {
+  width: 200px;
+  height: 100px;
+}
+
+.cube:first-child {
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

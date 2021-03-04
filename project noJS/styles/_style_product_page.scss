@@ -1,0 +1,164 @@
+$colorSite: #f16d7f;
+
+.breadcrumbs__product-page {
+    margin-bottom: 0px;
+}
+.product__page-img-slider {
+    height: 777px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    
+    &-link {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        border: 1px solid #d8d8d8;
+        padding: 20px 30px;;
+        background-color: #d8d8d8;
+        transition: all 0.3s;
+        &:hover {
+            color: #fff;
+            background-color: $colorSite;
+        }
+    }
+}
+.product__page {
+        
+    &-also-like {
+        color: #4d4d4d;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 70px;
+    }
+    &-also-like-products {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 75px;
+    }
+    &-description {
+        width: 1140px;
+        background-color: #fff;
+        padding-top: 73px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        border: 1px solid #eaeaea;
+
+        &-charachteristic {
+            width: 650px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        &-head {
+            color: $colorSite;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        &-pagination-link {
+            font-size: 25px;
+            color: #d6d6d6;
+            transition: all 0.3s;
+            &:hover {
+                color: $colorSite;
+            }
+        }
+        &-pagination-link-active {
+            font-size: 30px;
+            color: $colorSite;
+        }
+        &-head2 {
+            color: #4d4d4d;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        &-text {
+            color: #5e5e5e;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 30px;
+            width: 620px;
+                    
+        }
+        &-specifications {
+            display: flex;
+            justify-content: space-around;
+            width: 400px;
+            margin-bottom: 40px;
+        }
+        &-specification {
+            color: #b9b9b9;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            text-transform: uppercase;
+        }
+        &-specification2 {
+            color: #2f2f2f;
+        }
+        &-price {
+            color: $colorSite;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        &-feature {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 170px;
+            margin-top: 60px;
+        }
+        &-feature-input {
+            width: 540px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-feature-head {
+            color: #2f2f2f;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            text-transform: uppercase;
+            text-align: left;
+        }
+        &-feature-select {
+            height: 35px;
+            width: 145px;
+            background-color: #fff;
+            padding-left: 10px;
+            border: 1px solid #eaeaea;
+            margin-top: 15px;
+        }
+        &-feature-add-to-cart-link {
+            color: $colorSite;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 20px;
+            width: 540px;
+            border: 1px solid $colorSite;
+            text-align: center;
+            &:hover {
+                color: #fff;
+                background-color: $colorSite;
+            }
+        }
+    }
+}

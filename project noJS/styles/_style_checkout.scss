@@ -1,0 +1,137 @@
+$colorSite: #f16d7f;
+
+.checkout__section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+        &-list {
+            list-style-type: none;
+            padding-top: 33px;
+            padding-bottom: 32px;
+        &:not(.checkout_section_list_active) {
+            border-top: 1px solid #e8e8e8;
+            border-bottom: 1px solid #e8e8e8;
+            }
+        }
+        &-link {
+            color: #222222;
+            font-size: 16px;
+            font-weight: 900;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            &:hover {
+                color: $colorSite;
+            }
+    }
+}
+.shipping__address {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+     
+    &-head {
+        color: #222222;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    &-head2 {
+        color: #222222;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &-text-small-list {
+        margin-bottom: 41px;    
+    }
+    &-text-small {
+        color: #b3b2b2;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 34px;
+    }
+    &-text-small2 {
+        list-style-type: none;
+        color: #b3b2b2;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    &-radio {
+        margin-right: 14px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &-radio-text {
+        color: #222222;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &-radios {
+        margin-bottom: 33px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+.register__below {
+    margin-bottom: 30px;
+}
+.login__below {
+    color: #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: all 0.3s;
+        
+    &:hover {
+        color: $colorSite;
+    }
+}
+.checkout__button {
+        color: #4a4a4a;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px solid #eaeaea;
+        padding: 19px 55px;
+        background-color: #ffffff;
+        margin-bottom: 80px;
+        transition: all 0.3s;
+        &:hover {
+            cursor: pointer;
+            background-color: $colorSite;
+            color: #fff;
+        }
+}
+.checkout__input {
+    width: 390px;
+    height: 45px;
+    margin-top: 16px;
+    margin-bottom: 23px;
+    padding: 19px;
+    font-family: inherit;
+}
+.required__fields-star {
+    color: #ff0d0d;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+.forgot__password {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 32px;
+    transition: all 0.3s;
+    
+    &:hover {
+        color: $colorSite;
+    }
+}

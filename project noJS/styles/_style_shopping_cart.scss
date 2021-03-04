@@ -1,0 +1,183 @@
+$colorSite: #f16d7f;
+
+.shopping__cart {
+
+    &-content-head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        &-text {
+            color: #222222;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 20px;
+            text-transform: uppercase;
+            &:first-child {
+                width: 500px;
+            }
+        }
+    }
+    &-product {
+        border-top: 1px solid #eaeaea;
+        border-bottom: 1px solid #eaeaea;
+        padding-top: 22px;
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+
+        &-description{
+            display: flex;
+            width: 500px;
+        }
+            &-img {
+            margin-right: 20px;
+            background-color: #f1f7fa;
+        }
+            &-head {
+            color: #222222;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 13px;
+            margin-bottom: 38px;
+            transition: all 0.3s;
+            &:hover {
+                color: $colorSite;
+        }
+            &-text {
+            color: #6f6e6e;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+            &-text2 {
+            font-weight: 300;
+        }
+            &-conditions {
+            color: #656565;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+            &-quantity {
+            width: 54px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid #eaeaea;
+        }
+            &-delete {
+            color: #c0c0c0;
+            transition: all 0.3s;
+        }
+        }
+        &-delete:hover {
+            color: $colorSite;
+        }
+    }
+    &-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-button {
+        color: #4a4a4a;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px solid #eaeaea;
+        padding: 20px 40px;
+        margin-top: 44px;
+        margin-bottom: 63px;
+        display: flex;
+        justify-content: space-between;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $colorSite;
+            color: #fff;
+        }
+    }
+    &-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        &-address {
+            width: 355px;
+        }
+        &-coupon {
+            width: 355px;
+        }
+        &-total {
+            background-color: #f5f3f3;
+            width: 360px;
+            text-align: right;
+            padding: 40px 42px;
+            height: 220px;
+        }
+        &-head {
+            color: #222222;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 28px;
+        }
+        &-coupon-text {
+            color: #000000;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 24px;
+        }
+        &-input {
+            border: 1px solid #eaeaea;
+            margin-bottom: 25px;
+            padding: 17px;
+            width: 355px;
+        }
+        &-button {
+            color: #4a4a4a;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: 1px solid #eaeaea;
+            padding: 12px 17px;
+            transition: all 0.3s;
+            
+            &:hover {
+            color: #fff;
+            background-color: $colorSite;
+            }
+        }
+    }
+}
+
+.total {
+    &__sub-text {
+        color: #4a4a4a;
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &__grand-text {
+        color: #222222;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        &2 {
+            color: #f16d7f;
+        }
+    }
+    &__button-checkout {
+        text-transform: uppercase;
+        padding: 19px 42px;
+        background-color: $colorSite;
+        color: #fff;
+        transition: all 0.3s;
+        &:hover {
+            background-color: #d66070;
+        }
+    }
+}
