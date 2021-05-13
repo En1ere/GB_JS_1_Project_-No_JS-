@@ -14,7 +14,10 @@ $colorSite: #f16d7f;
             font-weight: 700;
             line-height: 20px;
             text-transform: uppercase;
+            width: 128px;
+            text-align: center;
             &:first-child {
+                text-align: left;
                 width: 500px;
             }
         }
@@ -33,11 +36,15 @@ $colorSite: #f16d7f;
             display: flex;
             width: 500px;
         }
-            &-img {
+        &-img {
             margin-right: 20px;
             background-color: #f1f7fa;
         }
-            &-head {
+        &-quantity {
+            width: 50px;
+            text-align: center;
+        }
+        &-head {
             color: #222222;
             font-size: 13px;
             font-weight: 600;
@@ -74,8 +81,23 @@ $colorSite: #f16d7f;
             transition: all 0.3s;
         }
         }
+        &-conditions {
+            width: 128px;
+            text-align: center;
+            &:last-child{
+                margin-left: 20px;
+                width: 88px;
+            }
+            &-block{
+                display: flex;
+            }
+            & button {
+                border: none;
+            }
+        }
         &-delete:hover {
             color: $colorSite;
+            cursor: pointer;
         }
     }
     &-buttons {
